@@ -1,0 +1,5 @@
+const dashboardcontroller = (req, res) => {
+  res.status(200).json({ message: "dashbord  working" });
+};
+
+module.exports = dashboardcontroller;
